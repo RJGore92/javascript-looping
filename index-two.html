@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles-two.css" type="text/css" media="all">
+    <script src="./js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="./js/scripts-two.js" type="text/javascript"></script>
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="species">A species (fiction or nonfiction)</label>
+            <input id="species" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verbOne">An action.</label>
+            <input id="verbOne" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="nounOne">An object or entity.</label>
+            <input id="nounOne" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="planetName">A name for a planet (can be fictional or nonfiction)</label>
+            <input id="planetName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="locationPrefix">A reference to a location (Is it "in", "on", or "outside of" something?)</label>
+            <input id="locationPrefix" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="location">Any location (can be fictional or non-fiction)</label>
+            <input id="location" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="jobType">A type of job (fiction or nonfiction)</label>
+            <input id="jobType" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="eventOne">Some event (May or may not be related to the job).</label>
+            <input id="eventOne" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="eventTwo">A second event.</label>
+            <input id="eventTwo" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="emotion">An emotion.</label>
+            <input id="emotion" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="indivName">A name for an individual (Can be just first name or a first and last name.  Can also be fiction or non-fiction)</label>
+            <input id="indivName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="action">An action performed by multiple individuals.</label>
+            <input id="action" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="genderRef">A reference to gender ("him" or "her").</label>
+            <input id="genderRef" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="createdSomething">Something created.  Can be something physical or a state of something.</label>
+            <input id="createdSomething" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A Brief Story of 32nd Century Happenings</h1>
+        <p>It is the 32nd century, where the <span class="species"></span> race has advanced and learned how to <span class="verbOne"></span> with <span class="nounOne"></span>.  While not common on planet <span class="planetName"></span>, the home planet of the <span class="species"></span> race, it is said that they <span class="verbOne"></span> more often in this way <span class="locationPrefix"></span> <span class="location"></span>.  One day, while a <span class="jobType"></span> of the <span class="species"></span> race works, <span class="eventOne"></span> happens and causes <span class="eventTwo"></span>.  This event, in turn, causes <span class="emotion"></span> within <span class="indivName"></span>'s coworkers and they start (to) <span class="action"></span> for <span class="genderRef"></span>, and afterwards, the <span class="jobType"></span>(e)s of their race bring about <span class="createdSomething"></span> for everyone.</p>
+      </div>
+    </div>
+  </body>
+</html>
